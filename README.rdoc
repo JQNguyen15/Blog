@@ -1,28 +1,26 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple blog done in rails.
+Deployed on tbd
 
-Things you may want to cover:
+* Ruby version 2.3.0
+* Rails version 4.2.6
 
-* Ruby version
+== Changelog
+* 0.1 - First commit
 
-* System dependencies
+== Deployment on localhost
+* git clone https://github.com/JQNguyen15/url-shortener.git
+* cd url-shortener
+* chmod 755 "*" (without quotes)
+* bin/rake db:migrate
+* bin/rails server to start the server
+* visit localhost:3000 to test app on localhost
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+== Deployment on heroku
+* fork from git
+* sync up on heroku
+* run command "heroku run rake db:migrate --app <appname on heroku>" while in the folder. Also need heroku toolbelt installed
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
