@@ -1,7 +1,7 @@
 == README
 
 Simple blog done in rails.
-Deployed on tbd
+Deployed on http://jnblog.herokuapp.com/
 
 * Ruby version 2.3.0
 * Rails version 4.2.6
